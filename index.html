@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wikipedia Viewer</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Prosto+One&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="box">
+    <div class="flex">
+        <p id='random' class="cursor"><a target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Click here
+            for a random article </a></p>
+        <form id="form" class="show-icon">
+            <input id="input" class="input" type="text" name="query"><span><i id="icon" class="fas fa-times icon "></i></span>
+        </form>
+        <p id='search-icon' class="cursor "><i class="fas fa-search "></i></p>
+        <p>Click icon to search</p>
+    </div>
+</div>
+<div id="container">
+</div>
+<script rel="script" src="wikipedia-viewer.js"></script>
+</body>
+</html>
